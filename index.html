@@ -10,13 +10,18 @@
 </head>
 <body>
 	<div class="formulario">
-		
-		
 
 				<h1>Calculadora</h1>
 				Primer numero <input type="number" class="PNum"><br>
 				Segundo numero <input type="number" class="SNum"><br>
-				Tipo de operacion <input type="text" class="Simbolo"><br><br>
+				<select class="Simbolo">
+					<option>Tipo de operacion</option>
+					<option value="+">+</option>
+					<option value="-">-</option>
+					<option value="*">*</option>
+					<option value="/">/</option>
+				</select>	
+				<br><br>
 				<button onClick="Calcular()">Calcular</button><br>
 				Resultado:<input type="number" class="RNum"><br>
 
